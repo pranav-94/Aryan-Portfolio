@@ -64,7 +64,6 @@ const handleMobileFun = ()=>{
                 <a href="https://x.com/Uchiha_D_Levi" target="blank">Twitter</a>
                 <a href="https://x.com/Uchiha_D_Levi" target="blank">LinkedIn</a>
             </div>
-            <Status/>
             </div>
         </div>
 }
