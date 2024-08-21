@@ -1,7 +1,6 @@
 import { useState } from "react"
 import {menuAtom}  from "../Recoil/atoms"
 import { useRecoilState } from "recoil"
-import Status from "./Status"
 
 const Profile = ()=>{
 
