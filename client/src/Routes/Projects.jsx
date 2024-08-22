@@ -91,7 +91,7 @@ const ProjectComp = ()=>{
              <div className="flex mt-5 md:mt-0 items-center  justify-evenly">
              <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
-                <img src="/public/SocailPulse.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
+                <img src="/SocailPulse.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">SocialPulse</p>
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
@@ -100,7 +100,7 @@ const ProjectComp = ()=>{
              </div>
              <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
-                <img src="/public/Ai Img.png" className="w-[380px] h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
+                <img src="/AI.png" className="w-[380px] h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">AI Byte</p>
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
@@ -109,7 +109,7 @@ const ProjectComp = ()=>{
              </div>
              <div className="flex flex-row items-center  justify-evenly">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
-                <img src="/public/BlogApp.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+                <img src="/BlogApp.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
 
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">InkFlow</p>
