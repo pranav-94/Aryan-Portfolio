@@ -49,9 +49,9 @@ const ContactForm = ()=>{
         <>
             <div className="w-[100%] flex justify-between">
                 <input onChange={setTitle(e.target.value)} className="outline-none md:w-[290px] w-[150px] pl-3 h-[45px]  bg-slate-800 border-[1px] border-slate-500 rounded-md" placeholder="Your Name" type="text" />
-                <input onChange={setContent(e.target.Content)} className="outline-none md:w-[290px] pl-3 h-[45px] bg-slate-800 border-[1px] border-slate-500 rounded-md" placeholder="Email Address" type="text" />
+                <input  className="outline-none md:w-[290px] pl-3 h-[45px] bg-slate-800 border-[1px] border-slate-500 rounded-md" placeholder="Email Address" type="text" />
             </div>
-            <textarea className="outline-none pl-3 bg-slate-800 border-[1px] border-slate-500 rounded-md pt-2 w-[330px] md:w-[600px]" placeholder="Your Message"  name="" id="" cols="80" rows="5"></textarea>
+            <textarea onChange={setContent(e.target.Content)} className="outline-none pl-3 bg-slate-800 border-[1px] border-slate-500 rounded-md pt-2 w-[330px] md:w-[600px]" placeholder="Your Message"  name="" id="" cols="80" rows="5"></textarea>
             <div className="w-[100%] flex justify-end pt-2">
             <button onClick={handleEmailClick} className="w-[140px] h-[40px] text-[18px] bg-[#90b8f8] text-slate-800 rounded-md font-semibold">Send</button>
             </div>
