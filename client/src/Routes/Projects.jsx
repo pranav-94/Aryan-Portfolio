@@ -107,12 +107,22 @@ const ProjectComp = ()=>{
                 </div>
             </div>
              </div>
-             <div className="flex flex-row items-center  justify-evenly">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
+             <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
                 <img src="/BlogApp.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
 
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">InkFlow</p>
+                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
+                </div>
+                </div>
+             </div>
+             <div className="flex flex-row items-center  justify-evenly">             <p className="w-[30%] hidden md:flex">HTML <br /> Tailwind-Css <br /> Weather-Api</p>
+                <div>
+                <img src="/weatherWise.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+
+                <div className="flex justify-evenly items-center w-[100%]">
+                <p className="mt-2">WeatherWise</p>
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
                 </div>
                 </div>
