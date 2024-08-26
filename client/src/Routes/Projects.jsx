@@ -47,6 +47,7 @@ import Nav from '../Components/Navbar'
 import Particle from "../Components/ParticleBack"
 import { menuAtom } from "../Recoil/atoms"
 import { useRecoilValue } from "recoil"
+import { Link } from "react-router-dom"
 
 const Projects = ()=>{
 
@@ -91,42 +92,91 @@ const ProjectComp = ()=>{
              <div className="flex mt-5 md:mt-0 items-center  justify-evenly">
              <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
+                <a href="https://social-media-app-omega-seven.vercel.app/">
                 <img src="/SocailPulse.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
+                </a>
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">SocialPulse</p>
+                <a href="https://github.com/pranav-94/social-media-app">
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
+                </a>
                 </div>
                 </div>
              </div>
+
+             
              <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
+                    <a href="https://ai-image-generator-nine-mu.vercel.app/">
                 <img src="/AI.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
+                </a>
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">AI Byte</p>
+                <a href="https://github.com/pranav-94/Ai-Image-Generator">
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
+                </a>
                 </div>
             </div>
              </div>
+
              <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
+                    <a href="https://ink-flow-green.vercel.app/">
                 <img src="/BlogApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+                </a>
 
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">InkFlow</p>
+                <a href="https://github.com/pranav-94/InkFlow">
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
+                </a>
                 </div>
                 </div>
              </div>
+
+             <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
+                <div>
+                <img src="/ChatApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out border-2 border-slate-200" alt=""/>
+
+                <div className="flex justify-evenly items-center w-[100%]">
+                <p className="mt-2">Chat-App</p>
+                <a href="https://github.com/pranav-94/chat-app">
+                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px] " alt="" />
+                </a>
+                </div>
+                </div>
+             </div>
+
+             <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">HTML <br /> TailWind Css <br /> Javascript</p>
+                <div>
+                    <a href="https://pranav-94.github.io/Tic-Tac-Toe/">
+                <img src="/Tic_Tac.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out border-2 border-slate-200" alt=""/>
+                </a>
+
+                <div className="flex justify-evenly items-center w-[100%]">
+                <p className="mt-2">Tic-Tac-Toe</p>
+                <a href="https://github.com/pranav-94/Tic-Tac-Toe">
+                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px] " alt="" />
+                </a>
+                </div>
+                </div>
+             </div>
+
              <div className="flex flex-row items-center  justify-evenly">             <p className="w-[30%] hidden md:flex">HTML <br /> Tailwind-Css <br /> Weather-Api</p>
                 <div>
+                    <a href="https://weatherwise-eight.vercel.app/dist/index2.html">
                 <img src="/weatherWise.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+                </a>
 
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">WeatherWise</p>
+                <a href="https://github.com/pranav-94/WeatherWise">
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
+                </a>
                 </div>
                 </div>
              </div>
+             
         </>
     )
 }
