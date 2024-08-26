@@ -48,8 +48,8 @@ const Home = ()=>{
 const AboutComp = ()=>{
     
     return(
-        <div className='md:w-[70%] h-screen flex justify-center items-center z-10 '>
-           <div className='md:w-[90%] w-[90%] h-[600px] md:h-[500px] bg-gray-800 rounded-md flex flex-col items-center justify-evenly'>
+        <div className='md:w-[70%] md:h-screen flex justify-center items-center z-10 '>
+           <div className='md:w-[90%] w-[90%] h-[600px] md:h-[500px] bg-gray-800 rounded-md flex flex-col items-center justify-between'>
 
 
                <Nav/>
@@ -66,7 +66,7 @@ const AboutComp = ()=>{
 
 const Info = ()=>{
     return(
-        <div className="w-[90%] text-[20px] h-[350px] overflow-scroll">
+        <div className="w-[90%] md:text-[20px] text-[18px]  md:h-[350px] overflow-scroll">
             <p>I'm a 20-year-old Full Stack Developer based in India, with a passion for creating seamless and efficient web applications. I've been coding since 2022, and in that time, I've honed my skills in both front-end and back-end development. I'm constantly learning and exploring new technologies to stay ahead in this ever-evolving field.</p>
 
             <p className="w-[90%] flex justify-start mt-5 text-[40px] text-[#90b8f8] pb-2">Skills</p>
@@ -79,7 +79,7 @@ const Info = ()=>{
 const SkillsComp = ()=>{
     return(
         <>
-        <div className=" h-[450px]  text-[16px] grid grid-cols-2 md:grid-cols-3">
+        <div className=" md:h-[450px]  h-[750px] text-[16px] grid grid-cols-2 md:grid-cols-3">
 
           <div className="flex flex-col items-center">
              <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/JS.svg" alt="" />

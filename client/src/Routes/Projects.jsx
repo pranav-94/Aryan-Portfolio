@@ -53,7 +53,7 @@ const Projects = ()=>{
     const menuState = useRecoilValue(menuAtom)
 
     return(
-        <div className={`w-[100%] bg-[#181b1d] text-slate-100 flex-col md:flex-row flex z-0   md:h-screen justify-evenly ${menuState=== false? "h-[1200px]" : "h-[850px]"}`}>
+        <div className={`w-[100%] bg-[#181b1d] md:h-screen text-slate-100 flex-col md:flex-row flex justify-evenly z-0 ${menuState=== false? "h-[1200px]" : "h-[850px]"}`}>
             <Particle/>
             <Profile/>
             <AboutComp/>
@@ -64,7 +64,7 @@ const Projects = ()=>{
 const AboutComp = ()=>{
     
     return(
-        <div className='md:w-[70%] h-screen flex justify-center items-center z-10'>
+        <div className='md:w-[70%] md:h-screen flex justify-center items-center z-10'>
            <div className='md:w-[90%] w-[90%]  md:h-[500px] h-[600px] bg-gray-800 rounded-md flex flex-col items-center justify-between'>
 
                <Nav/>
@@ -79,7 +79,7 @@ const AboutComp = ()=>{
 
 const Info = ()=>{
     return(
-    <div className="w-[100%]  text-[20px] h-[350px] overflow-scroll flex flex-col ">
+    <div className="w-[100%]  text-[20px] md:h-[350px] overflow-scroll flex flex-col ">
             <ProjectComp/>
         </div>
     )
@@ -91,7 +91,7 @@ const ProjectComp = ()=>{
              <div className="flex mt-5 md:mt-0 items-center  justify-evenly">
              <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
-                <img src="/SocailPulse.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
+                <img src="/SocailPulse.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">SocialPulse</p>
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
@@ -100,7 +100,7 @@ const ProjectComp = ()=>{
              </div>
              <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
-                <img src="/AI.png" className="w-[380px] h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
+                <img src="/AI.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">AI Byte</p>
                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
@@ -109,7 +109,7 @@ const ProjectComp = ()=>{
              </div>
              <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
                 <div>
-                <img src="/BlogApp.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+                <img src="/BlogApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
 
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">InkFlow</p>
@@ -119,7 +119,7 @@ const ProjectComp = ()=>{
              </div>
              <div className="flex flex-row items-center  justify-evenly">             <p className="w-[30%] hidden md:flex">HTML <br /> Tailwind-Css <br /> Weather-Api</p>
                 <div>
-                <img src="/weatherWise.png" className="w-[380px] h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+                <img src="/weatherWise.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
 
                 <div className="flex justify-evenly items-center w-[100%]">
                 <p className="mt-2">WeatherWise</p>
