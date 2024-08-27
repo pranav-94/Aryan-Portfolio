@@ -105,7 +105,7 @@ const ProjectComp = ()=>{
              </div>
 
              
-             <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
+             <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">             <p className="w-[30%] hidden md:flex">React Node.js <br /> Prisma Postgres <br />Prisma Cloudflare</p>
                 <div>
                     <a href="https://ai-image-generator-nine-mu.vercel.app/">
                 <img src="/AI.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
