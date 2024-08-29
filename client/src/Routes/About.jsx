@@ -92,16 +92,6 @@ const SkillsComp = ()=>{
           </div>
 
           <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Python.svg" alt="" />
-             <p>Python</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Java.svg" alt="" />
-             <p>Java</p>
-          </div>
-
-          <div className="flex flex-col items-center">
              <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
              <p>React js</p>
           </div>
@@ -153,6 +143,16 @@ const SkillsComp = ()=>{
           <div className="flex flex-col items-center">
              <img className="w-[50px] h-[50px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
              <p>Prisma</p>
+          </div>
+
+          <div className="flex flex-col items-center">
+             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Python.svg" alt="" />
+             <p>Python</p>
+          </div>
+
+          <div className="flex flex-col items-center">
+             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Java.svg" alt="" />
+             <p>Java</p>
           </div>
 
           </div>
