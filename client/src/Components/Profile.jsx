@@ -18,6 +18,11 @@ let regexp = /android|iphone|kindle|ipad/i;
 /* Using test() method to search regexp in details 
 it returns boolean value*/
 let isMobileDevice = regexp.test(details); 
+
+const isAndroid = /Android/i.test(navigator.userAgent);
+if(isAndroid){
+    setMobileState(true)
+}
   
 if (isMobileDevice) { 
     // setMobileState(true)
