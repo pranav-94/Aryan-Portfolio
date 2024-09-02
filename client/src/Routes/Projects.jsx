@@ -26,15 +26,15 @@
 // const Skills =()=>{
 //     return(
 //         <div className="flex">
-//             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/JS.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/TypeScript.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Python.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Java.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/342062/next-js.svg" alt="" />
-//             <img className="w-[50px] h-[50px]" src="https://cdn.iconscout.com/icon/free/png-512/free-postgresql-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-freebies-pack-logos-icons-1175119.png?f=webp&w=512" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://abrudz.github.io/logos/JS.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://abrudz.github.io/logos/TypeScript.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://abrudz.github.io/logos/Python.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://abrudz.github.io/logos/Java.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/342062/next-js.svg" alt="" />
+//             <img className="w-[40px] h-[40px]" src="https://cdn.iconscout.com/icon/free/png-512/free-postgresql-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-freebies-pack-logos-icons-1175119.png?f=webp&w=512" alt="" />
 //         </div>
 //     )
 // }
@@ -90,7 +90,11 @@ const ProjectComp = ()=>{
     return(
         <>
              <div className="flex mt-5 md:mt-0 items-center  justify-evenly">
-             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
+             <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
+ <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
+ <br />             <img className='w-[40px] h-[40px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+ <br />             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
+</div>
                 <div>
                 <a href="https://social-media-app-omega-seven.vercel.app/">
                 <img src="/SocailPulse.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
@@ -105,7 +109,12 @@ const ProjectComp = ()=>{
              </div>
 
              
-             <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">             <p className="w-[30%] hidden md:flex">React Node.js <br /> Prisma Postgres <br />Prisma Cloudflare</p>
+             <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">      
+             <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
+ <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
+ <br />             <img className='w-[40px] h-[40px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+ <br />             <img className="w-[40px] h-[40px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
+</div>
                 <div>
                     <a href="https://ai-image-generator-nine-mu.vercel.app/">
                 <img src="/AI.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md border-2 border-slate-200 hover:brightness-75 transition-all duration-500 ease-in-out" alt="" />
@@ -119,7 +128,13 @@ const ProjectComp = ()=>{
             </div>
              </div>
 
-             <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
+             <div className="flex flex-row items-center  justify-evenly mb-10"> 
+             <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
+ <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
+ <br />                         <img className="w-[40px] h-[40px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
+
+ <br />                         <img className="w-[35px] h-[40px]" src="https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png" alt="" />
+</div>
                 <div>
                     <a href="https://ink-flow-green.vercel.app/">
                 <img src="/BlogApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
@@ -134,7 +149,13 @@ const ProjectComp = ()=>{
                 </div>
              </div>
 
-             <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">React <br /> Node.js <br /> Express js <br />MongoDB</p>
+             <div className="flex flex-row items-center  justify-evenly mb-10"> 
+             <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
+ <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
+ <br />             <img className='w-[40px] h-[40px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+ <br />        <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
+
+</div>
                 <div>
                 <img src="/ChatApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out border-2 border-slate-200" alt=""/>
 
@@ -147,7 +168,11 @@ const ProjectComp = ()=>{
                 </div>
              </div>
 
-             <div className="flex flex-row items-center  justify-evenly mb-10">             <p className="w-[30%] hidden md:flex">HTML <br /> TailWind Css <br /> Javascript</p>
+             <div className="flex flex-row items-center  justify-evenly mb-10">                     
+             <div className="w-[30%] hidden md:flex  justify-evenly">                 <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="" />
+             <img className="w-[40px] h-[40px]" src="https://abrudz.github.io/logos/JS.svg" alt="" />
+
+</div>
                 <div>
                     <a href="https://pranav-94.github.io/Tic-Tac-Toe/">
                 <img src="/Tic_Tac.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out border-2 border-slate-200" alt=""/>
@@ -162,7 +187,10 @@ const ProjectComp = ()=>{
                 </div>
              </div>
 
-             <div className="flex flex-row items-center  justify-evenly">             <p className="w-[30%] hidden md:flex">HTML <br /> Tailwind-Css <br /> Weather-Api</p>
+             <div className="flex flex-row items-center  justify-evenly">                      <div className="w-[30%] hidden md:flex  justify-evenly">                 <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="" />
+             <img className="w-[40px] h-[40px]" src="https://abrudz.github.io/logos/JS.svg" alt="" />
+
+</div>
                 <div>
                     <a href="https://weatherwise-eight.vercel.app/dist/index2.html">
                 <img src="/weatherWise.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
@@ -176,7 +204,6 @@ const ProjectComp = ()=>{
                 </div>
                 </div>
              </div>
-             
         </>
     )
 }
