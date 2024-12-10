@@ -25,7 +25,7 @@ if(isAndroid){
 }
   
 if (isMobileDevice) { 
-    // setMobileState(true)
+     setMobileState(true)
 } 
 
 const handleMobileFun = ()=>{
