@@ -66,7 +66,7 @@ const AboutComp = ()=>{
 
 const Info = ()=>{
     return(
-        <div className="w-[90%] md:text-[20px] text-[18px]  md:h-[350px] overflow-scroll">
+        <div className="w-[90%] md:text-[20px] text-[16px]  md:h-[350px] overflow-scroll">
             <p>I'm a 20-year-old Full Stack Developer based in India, with a passion for creating seamless and efficient web applications. I've been coding since 2022, and in that time, I've honed my skills in both front-end and back-end development. I'm constantly learning and exploring new technologies to stay ahead in this ever-evolving field.</p>
 
             <p className="w-[90%] flex justify-start mt-5 text-[40px] text-[#90b8f8] pb-2">Skills</p>
