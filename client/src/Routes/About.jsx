@@ -1,32 +1,4 @@
-// // import Nav from '../Components/Navbar';
 
-// const Home = ()=>{
-//     // bg-[#081b29]
-//     //bg-[#191a1b]
-//     return(
-// <div className='w-[100%] md:h-screen h-[650px] bg-[#181b1d] text-[#90b8f8] flex flex-col justify-evenly'>
-//     {/* <Nav/> */}
-//     <HomeIntro/>
-// </div>
-//     )
-// }
-
-// const HomeIntro = ()=>{
-//     return(
-//         <div className='flex flex-col md:flex-row items-center'>
-//           <div className='w-[40%] md:flex md:justify-center'>
-//              <img className='rounded-lg md:w-[350px] md:h-[350px] hover:scale-105 hover:rotate-1 shadow-lg transform-all duration-300 ease-in-out' src="../../ds_j6rNE_400x400.jpg" alt="" />
-//           </div>
-//           <div className='md:w-[60%] w-[80%] flex  md:items-start  justify-center flex-col '>
-//                <p className='text-[50px] md:text-[57px]  font-semibold text-white'>Hi, <span className='text-[#90b8f8]'>It's Pranav</span> </p>
-//                <p className='text-[30px] font-semibold text-white'>I'm a full-stack dev</p>
-//                <p className='md:w-[80%] text-[18px] text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio enim ipsa perspiciatis ut provident natus quae, quibusdam quos, quia libero commodi distinctio mollitia asperiores?</p>
-//           </div>
-//         </div>
-//     )
-// }
-
-// export default Home
 
 import Profile from "../Components/Profile"
 import Nav from '../Components/Navbar'
