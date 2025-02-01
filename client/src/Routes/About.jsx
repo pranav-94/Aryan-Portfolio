@@ -39,7 +39,8 @@ const AboutComp = ()=>{
 const Info = ()=>{
     return(
         <div className="w-[90%] md:text-[20px] text-[18px]  md:h-[350px] overflow-scroll">
-            <p>I'm a Full Stack Developer based in India, with a passion for creating seamless and efficient web applications. I've been coding since 2022, and in that time, I've honed my skills in both front-end and back-end development. I'm constantly learning and exploring new technologies to stay ahead in this ever-evolving field.</p>
+            <p>I'm Aryan Kakade(5 backlogs), a data-driven professional from Mumbai, India, passionate about transforming data into actionable insights that drive business growth. With a problem-solving mindset and a creative approach, I specialize in delivering meaningful analytics solutions and impactful visualizations.
+I thrive on simplifying complexity and turning numbers into powerful stories. My curiosity and adaptability keep me exploring new technologies to stay ahead in this evolving field.</p>
 
             <p className="w-[90%] flex justify-start mt-5 text-[40px] text-[#90b8f8] pb-2">Skills</p>
             <SkillsComp/>
@@ -48,88 +49,54 @@ const Info = ()=>{
     )
 }
 
-const SkillsComp = ()=>{
-    return(
-        <>
-        <div className=" md:h-[450px]  h-[750px] text-[16px] grid grid-cols-2 md:grid-cols-3">
+const SkillsComp = () => {
+   const skills = [
+     {
+       name: "Excel",
+       imageUrl:
+         "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg",
+     },
+     { name: "MySQL", imageUrl: "https://www.svgrepo.com/show/303251/mysql-logo.svg" },
+     { name: "PostgreSQL", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" },
+     {
+       name: "Microsoft Power BI",
+       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
+     },
+     { name: "Python", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
+     {
+       name: "Google Sheets",
+       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg",
+     },
+     {
+       name: "Machine Learning",
+       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.svg",
+     },
+     { name: "Statistics", imageUrl: "https://cdn-icons-png.flaticon.com/512/2784/2784065.png" },
+     { name: "Mathematics", imageUrl: "https://cdn-icons-png.flaticon.com/512/3095/3095138.png" },
+     { name: "Microsoft Azure", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" },
+     { name: "Apache Spark", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" },
+   ]
+ 
+   return (
+     <div className="container mx-auto px-4 py-8">
+       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+         {skills.map((skill, index) => (
+           <div key={index} className="flex flex-col items-center">
+             <div className="w-10 h-10 relative mb-2">
+               <img
+                 src={skill.imageUrl || "/placeholder.svg"}
+                 alt={skill.name}
+                 className="w-full h-full object-contain"
+               />
+             </div>
+             <p className="text-center font-medium">{skill.name}</p>
+           </div>
+         ))}
+       </div>
+     </div>
+   )
+ }
+ 
 
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/JS.svg" alt="" />
-             <p>JavaScript</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/TypeScript.svg" alt="" />
-             <p>TypeScript</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
-             <p>React js</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
-             <p>Node.js</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
-             <p>MongoDB</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://files.raycast.com/gqynjodt1h64pyb2x6c6ypv6hq91" alt="" />
-             <p>Next Js</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <img className="w-[50px] h-[50px]" src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="" />
-            <p>Tailwind Css</p>
-            </div>
-            <div className="flex flex-col items-center">
-            <img className='w-[50px] h-[50px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
-            <p>Express js</p>
-            </div>
-
-            <div className="flex flex-col items-center">
-            <img className='w-[50px] h-[50px]' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png' alt="" />
-            <p>Git</p>
-            </div>
-
-            <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://cdn.iconscout.com/icon/free/png-512/free-postgresql-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-freebies-pack-logos-icons-1175119.png?f=webp&w=512" alt="" />
-             <p>Postgres</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[40px] h-[50px]" src="https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png" alt="" />
-             <p>Hono</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://pbs.twimg.com/profile_images/1377116487933030410/kyyHFjc2_400x400.jpg" alt="" />
-             <p>Recoil</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
-             <p>Prisma</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Python.svg" alt="" />
-             <p>Python</p>
-          </div>
-
-          <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://abrudz.github.io/logos/Java.svg" alt="" />
-             <p>Java</p>
-          </div>
-
-          </div>
-        </>
-    )
-}
 
 export default Home
