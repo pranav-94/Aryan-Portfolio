@@ -65,9 +65,9 @@ const handleMobileFun = ()=>{
             <p></p>
             </div>
             <div className="flex justify-evenly w-[100%] text-[#90b8f8]">
-                <a href="https://github.com/pranav-94" target="blank">Github</a>
-                <a href="https://x.com/Uchiha_D_Levi" target="blank">Twitter</a>
-                <a href="https://x.com/Uchiha_D_Levi" target="blank">LinkedIn</a>
+                <a href="https://xhamster.com/videos/x-sutra-full-movie-2021-xh7dMd8" target="blank">Github</a>
+                <a href="-" target="blank">Twitter</a>
+                <a href="https://www.linkedin.com/in/aryan-kakade27" target="blank">LinkedIn</a>
             </div>
             </div>
         </div>
