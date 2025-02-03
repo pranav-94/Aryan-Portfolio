@@ -42,7 +42,7 @@ const ContactForm = ()=>{
     const [content,setContent] = useState('')
 
     const handleEmailClick = () => {
-        window.location.href = `mailto:ppranavvvvv918@gmail.com?subject=${title}&body=${content}`;
+        window.location.href = `mailto:aryankakade2727@gmail.com?subject=${title}&body=${content}`;
       };
 
     return(

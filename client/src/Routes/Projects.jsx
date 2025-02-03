@@ -70,7 +70,7 @@ const ProjectComp = () => {
         },
         {
           name: "Hospital Emergency Room Dashboard",
-          image: "../../hosp.jpg",
+          image: "../../hospi.jpg",
           link: "https://app.powerbi.com/groups/me/reports/74c2c6b6-e1df-47e9-b15b-58f39e9ec1d8/6f4d8ec726210fb39bbe?experience=power-bi",
           github: "https://github.com/pranav-94/chat-app",
         
