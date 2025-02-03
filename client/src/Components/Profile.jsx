@@ -46,8 +46,8 @@ const handleMobileFun = ()=>{
                 <div className="w-[85%] flex items-center">
                 <img className='rounded-full md:w-[70px] md:h-[70px] w-[70px] h-[70px] hover:scale-105 hover:rotate-1 shadow-lg transform-all duration-300 ease-in-out' src="../../ds_j6rNE_400x400.jpg" alt="" />
                 <div className="ml-3">
-                <p className="font-semibold text-[17px] text-[#90b8f8]">Aryan Kakde</p>
-                <p>Chutiya</p>
+                <p className="font-semibold text-[17px] text-[#90b8f8]">Aryan Kakade</p>
+                <p>Data Analyst</p>
                 </div>
                 </div>
 
@@ -60,12 +60,12 @@ const handleMobileFun = ()=>{
             <button className="md:hidden fixed top-[70px]  right-7" onClick={handleMobileFun}><img src="https://cdn-icons-png.flaticon.com/128/14025/14025489.png" className="w-[25px] h-[25px]" alt="" /></button>
             <img className='rounded-lg md:w-[150px] md:h-[150px] w-[150px] h-[150px] hover:scale-105 hover:rotate-1 shadow-lg transform-all duration-300 ease-in-out' src="../../ds_j6rNE_400x400.jpg" alt="" />
             <div className="w-[80%]">
-            <p className="text-[30px] text-[#90b8f8]">Aryan Kakde</p>
-            <p>Chutiya</p>
+            <p className="text-[30px] text-[#90b8f8]">Aryan Kakade</p>
+            <p>Data Analyst</p>
             <p></p>
             </div>
             <div className="flex justify-evenly w-[100%] text-[#90b8f8]">
-                <a href="https://xhamster.com/videos/x-sutra-full-movie-2021-xh7dMd8" target="blank">Github</a>
+                <a href="https://github.com/Aryankakade" target="blank">Github</a>
                 <a href="-" target="blank">Twitter</a>
                 <a href="https://www.linkedin.com/in/aryan-kakade27" target="blank">LinkedIn</a>
             </div>

@@ -43,61 +43,44 @@ const Info = ()=>{
     )
 }
 
+// import 
+
 const ProjectComp = () => {
     const projects = [
         {
           name: "Banking Operation Analysis Dashboard",
-          image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Financial_Analysis_Dashboard.jpg",
-          link: "https://social-media-app-omega-seven.vercel.app/",
+          image: "../../Banking.jpg",
+          link: "https://app.powerbi.com/groups/me/reports/4a3fada2-ba7e-4920-bd40-d09245e7c1b7/be94380037ae7288aa6b?experience=power-bi",
           github: "https://github.com/pranav-94/social-media-app",
-          technologies: [
-            "https://www.svgrepo.com/show/354259/react.svg",
-            "https://www.svgrepo.com/show/452075/node-js.svg",
-            "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
-            "https://www.svgrepo.com/show/331488/mongodb.svg",
-          ],
+    
         },
         {
           name: "Chocolate Sales Dashboard",
-          image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Retail_Sales_Dashboard.jpg",
-          link: "https://ai-image-generator-nine-mu.vercel.app/",
+          image: "../../Choco.jpg",
+          link: "https://app.powerbi.com/groups/me/reports/f449a99a-88d7-4048-8b6e-91aa6d0d4589/daaf74b3df6c082b49dc?experience=power-bi",
           github: "https://github.com/pranav-94/Ai-Image-Generator",
-          technologies: [
-            "https://www.svgrepo.com/show/354259/react.svg",
-            "https://www.svgrepo.com/show/452075/node-js.svg",
-            "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
-            "https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png",
-          ],
+          
         },
         {
           name: "Pie Bakery Sales Dashboard",
-          image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bakery_Sales_Dashboard.png",
-          link: "https://ink-flow-green.vercel.app/",
+          image: "../../pie.jpg",
+          link: "https://app.powerbi.com/groups/me/reports/3342e651-0ca7-4e4d-b2e6-bec9b3a0d5e9/ReportSection2b3f58a40035329ac50c?experience=power-bi",
           github: "https://github.com/pranav-94/InkFlow",
-          technologies: [
-            "https://www.svgrepo.com/show/354259/react.svg",
-            "https://www.svgrepo.com/show/452075/node-js.svg",
-            "https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png",
-            "https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png",
-          ],
+         
         },
         {
           name: "Hospital Emergency Room Dashboard",
-          image: "https://upload.wikimedia.org/wikipedia/commons/1/13/Hospital_ER_Dashboard.jpg",
+          image: "../../hosp.jpg",
+          link: "https://app.powerbi.com/groups/me/reports/74c2c6b6-e1df-47e9-b15b-58f39e9ec1d8/6f4d8ec726210fb39bbe?experience=power-bi",
           github: "https://github.com/pranav-94/chat-app",
-          technologies: [
-            "https://www.svgrepo.com/show/354259/react.svg",
-            "https://www.svgrepo.com/show/452075/node-js.svg",
-            "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
-            "https://www.svgrepo.com/show/331488/mongodb.svg",
-          ],
+        
         },
         {
           name: "CWC 2023 Analysis Report",
-          image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Cricket_Analytics_Dashboard.png",
-          link: "https://weatherwise-eight.vercel.app/dist/index2.html",
+          image: "../../cwc.jpg",
+          link: "https://app.powerbi.com/groups/me/reports/a31708ac-5909-413f-8661-ef36ae4ccfb0/ReportSection0df55996633294396756?experience=power-bi",
           github: "https://github.com/pranav-94/WeatherWise",
-          technologies: ["https://www.svgrepo.com/show/374118/tailwind.svg", "https://abrudz.github.io/logos/JS.svg"],
+         
         },
       ]
       
@@ -107,11 +90,6 @@ const ProjectComp = () => {
         <>
             {projects.map((project, index) => (
                 <div key={index} className="flex flex-row items-center justify-evenly mb-10">
-                    <div className="w-[30%] hidden md:flex justify-evenly">
-                        {project.technologies.map((tech, i) => (
-                            <img key={i} className="w-[40px] h-[40px]" src={tech} alt="" />
-                        ))}
-                    </div>
                     <div>
                         {project.link ? (
                             <a href={project.link}>
@@ -122,9 +100,9 @@ const ProjectComp = () => {
                         )}
                         <div className="flex justify-evenly items-center w-[100%]">
                             <p className="mt-2">{project.name}</p>
-                            <a href={project.github}>
+                            {/* <a href={project.github}>
                                 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

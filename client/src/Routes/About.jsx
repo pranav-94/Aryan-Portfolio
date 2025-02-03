@@ -39,7 +39,7 @@ const AboutComp = ()=>{
 const Info = ()=>{
     return(
         <div className="w-[90%] md:text-[20px] text-[18px]  md:h-[350px] overflow-scroll">
-            <p>I'm Aryan Kakade(5 backlogs don't hire), a data-driven professional from Mumbai, India, passionate about transforming data into actionable insights that drive business growth. With a problem-solving mindset and a creative approach, I specialize in delivering meaningful analytics solutions and impactful visualizations.
+            <p>I'm Aryan Kakade a data-driven professional from Mumbai, India, passionate about transforming data into actionable insights that drive business growth. With a problem-solving mindset and a creative approach, I specialize in delivering meaningful analytics solutions and impactful visualizations.
 I thrive on simplifying complexity and turning numbers into powerful stories. My curiosity and adaptability keep me exploring new technologies to stay ahead in this evolving field.</p>
 
             <p className="w-[90%] flex justify-start mt-5 text-[40px] text-[#90b8f8] pb-2">Skills</p>
@@ -89,7 +89,7 @@ const SkillsComp = () => {
                  className="w-full h-full object-contain"
                />
              </div>
-             <p className="text-center font-medium">{skill.name}</p>
+             <p className="text-center font-medium text-[16px]">{skill.name}</p>
            </div>
          ))}
        </div>
