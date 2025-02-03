@@ -61,7 +61,7 @@ const handleMobileFun = ()=>{
             <img className='rounded-lg md:w-[150px] md:h-[150px] w-[150px] h-[150px] hover:scale-105 hover:rotate-1 shadow-lg transform-all duration-300 ease-in-out' src="../../ds_j6rNE_400x400.jpg" alt="" />
             <div className="w-[80%]">
             <p className="text-[30px] text-[#90b8f8]">Aryan Kakade</p>
-            <p>Data Analyst</p>
+            <p>Data Analyst / Busniess Analyst</p>
             <p></p>
             </div>
             <div className="flex justify-evenly w-[100%] text-[#90b8f8]">
