@@ -50,13 +50,13 @@ const ProjectComp = () => {
         {
             name: "Steamlit Banking App",
             image: "../../Steamlit.jpg",
-            github: "https://github.com/Aryankakade/streamlit-banking-app",
+            link: "https://github.com/Aryankakade/streamlit-banking-app",
       
           },
           {
             name: "Live Stock Market Dashboard",
             image: "../../Stock.jpg",
-            github: "https://github.com/Aryankakade/stock_market_dash_app",
+            link: "https://github.com/Aryankakade/stock_market_dash_app",
       
           },
         {
