@@ -48,6 +48,18 @@ const Info = ()=>{
 const ProjectComp = () => {
     const projects = [
         {
+            name: "Steamlit Banking App",
+            image: "../../Steamlit.jpg",
+            github: "https://github.com/Aryankakade/streamlit-banking-app",
+      
+          },
+          {
+            name: "Live Stock Market Dashboard",
+            image: "../../Stock.jpg",
+            github: "https://github.com/Aryankakade/stock_market_dash_app",
+      
+          },
+        {
           name: "Banking Operation Analysis Dashboard",
           image: "../../Banking.jpg",
           link: "https://app.powerbi.com/groups/me/reports/4a3fada2-ba7e-4920-bd40-d09245e7c1b7/be94380037ae7288aa6b?experience=power-bi",
